@@ -1,0 +1,269 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <!DOCTYPE html> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Mahesh-Welcomes You!</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
+
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/2.0/css/font-awesome-72.css">
+
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="js/vendor/jquery.hashchange.min.js"></script>
+  <script src="js/vendor/jquery.easytabs.min.js"></script>
+
+  <script src="js/main.js"></script>
+  <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+      <![endif]-->
+</head>
+  <body class="bg-fixed bg-1" style="font-size:13px">
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+   <div class="main-container">
+    <div class="main wrapper clearfix">
+      <!-- Header Start -->
+        <header id="header">
+            <div id="logo">
+                <h2>
+                    
+                </h2>
+                
+            </div>
+        </header>
+        <!-- Header End -->
+        <!-- Main Tab Container -->
+        <div id="tab-container" class="tab-container">
+          <!-- Tab List -->
+            <ul class='etabs'>
+                <li class='tab' id="tab-about">
+                  <a href="#accountDetails"><i class="icon-user"></i><span> Account Details</span></a>
+                </li>
+            </ul>
+          <!-- End Tab List -->
+            <div id="tab-data-wrap">
+              <!-- About Tab Data -->
+                <div id="accountDetails">
+                    <section class="clearfix">
+                        <div class="g2">
+                            <form action="/api/customer/register" enctype="application/json" name="registerform" id="registerform">
+                            <table>
+                            <tr>
+                                <td><label for="customer_id">CustomerID</label></td>
+                                <td><input type="text" id="customer_id" name="customer_id"></td>
+                            </tr>
+                           <tr>
+                                <td><label for="password">Password</label></td>
+                                <td><input type="text" id="password" name="password"></td>
+                            </tr>     
+                            <tr>
+                                <td><label for="cpwd">Retype Password</label></td>
+                                <td><input type="text" id="cpwd" name="cpwd"></td>
+                            </tr>
+
+                            
+                            <tr>
+                                <td><label for="firstname">First Name</label></td>
+                                <td><input type="text" id="firstname" name="firstname"></td>
+                            </tr>
+                           <tr>
+                                <td><label for="lastname">Last Name</label></td>
+                                <td><input type="text" id="lastname" name="lastname"></td>
+                            </tr>     
+                            <tr>
+                                <td><label for="dob">DOB</label></td>
+                                <td><input type="text" id="dob" name="dob"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="phone">Contact</label></td>
+                                <td><input type="text" id="phone" name="phone"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="address">Address</label></td>
+                                <td><input type="text" id="address" name="address"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="city">City</label></td>
+                                <td><input type="text" id="city" name="city"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="state">State</label></td>
+                                <td><input type="text" id="state" name="state"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="zipcode">Zip Code</label></td>
+                                <td><input type="text" id="zipcode" name="zipcode"></td>
+                            </tr>
+                            
+                            <tr>
+                                <td><label for="adult">Adults #</label></td>
+                                <td><input type="text" id="adult" name="adult"></td>
+                            </tr>
+                           <tr>
+                                <td><label for="child">Children #</label></td>
+                                <td><input type="text" id="children" name="children"></td>
+                            </tr>
+                                <tr>
+                                <td><label for="total_ppl">Total Number</label></td>
+                                <td><input type="text" id="total_ppl" name="total_ppl"></td>
+                            </tr>  
+                            <tr>
+                                <td><label for="race">Ethnicity</label></td>
+                                <td><input type="text" id="race" name="race"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="language">Language</label></td>
+                                <td><input type="text" id="language" name="language"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="disability">Disablitiy</label></td>
+                                <td>
+                                    <select name="disability" id="disability">
+                                      <option value="Yes, I've disability">Yes, I've disability</option>
+                                      <option value="No, I don't have disability">No, I don't have disability</option>                       </select></td>
+                            </tr>
+                            <tr>
+                                <td><label for="q1_ans">Anyone in Household get CalFresh/Food Stamps</label></td>
+                                <td>
+                                    <select name="q1_ans" id="qn1">
+                                      <option value="Yes">Yes</option>
+                                      <option value="No">No</option>
+                                
+                                    </select></td>
+                            </tr>
+                             <tr>
+                                <td><label for="q2_ans">Anyone in Household applied CalFresh/Food Stamps (in last 6months)</label></td>
+                                <td>
+                                    <select name="q2_ans" id="qn2">
+                                      <option value="Yes">Yes</option>
+                                      <option value="No">No</option>
+                                
+                                    </select></td>
+                            </tr>
+                            
+                            
+                            <tr>
+                                <td><input type="checkbox" name="digital_sign" value="consent"> I hereby certify that the above details are true to the best of my knowledge</td>
+                                                           
+                            </tr>
+                            <tr><td>&nbsp;</td></tr>
+                            <tr>
+                                <td>Date: &nbsp;  <input type="date" name="date" ><br></td>
+                                
+                            </tr>
+                            <tr><td>&nbsp;</td></tr>
+                            <tr>
+                                <td style="padding-left:10px;">
+                                  <input type="button" onClick="register();" class="myButton" value="Submit"> &nbsp; 
+                                  <input type="reset" class="myButton" value="Clear">
+                                </td>
+                            </tr>
+                            </table>
+                            </form>
+                        </div>
+					   
+                    </section>
+                </div>
+              <!-- End Contact Data -->
+            </div>
+        </div>
+        <!-- End Tab Container -->
+        <footer>
+            <p>
+               Copyright© Food Family Harvest 2016 | All rights reserved
+            </p>
+        </footer>
+    </div><!-- #main -->
+</div><!-- #main-container -->
+
+
+
+</body>
+<script>
+
+// function getFormData($form){
+//     var unindexed_array = $form.serializeArray();
+//     var indexed_array = {};
+
+//     $.map(unindexed_array, function(n, i){
+//         indexed_array[n['name']] = n['value'];
+//     });
+
+//     return indexed_array;
+// } 
+
+function register(){
+
+//   var $form = $("#registerform");
+// var data = getFormData($form);
+
+var $inputs = $('#registerform :input');
+var values = {};
+    $inputs.each(function() {
+        values[this.name] = $(this).val();
+    });
+
+
+alert(JSON.stringify(values));
+    
+//     var postData = {
+//  customer_id: "sivakumar@gmail.com",
+//     password: "aaa",
+//     firstname : "aa",
+//     lastname : "aa",
+//     address : "aa",
+//     city : "aa",
+//     state : "aa",
+//     zipcode : "aa",
+//     dob : "01/01/2001",
+//     phone : "aa",
+//     adult : 1,
+//     children : 2,
+//     total_ppl : 3,
+//     race : "aa",
+//     language : "aa",
+//     disability : "aa",
+//     q1_ans : "aa",
+//     q2_ans : "aa",
+//     digital_sign : "aa",
+//     date : "01/01/2001"
+// }
+
+    $.ajax({
+            type: "POST",
+            url: "http://104.197.246.249/api/customer/register",
+            data:JSON.stringify(values),
+            contentType: 'application/json',
+            crossDomain: true,
+            dataType: "json",
+            success: function (data, status, jqXHR) {
+
+                alert(data);
+            },
+
+            error: function (jqXHR, status) {
+                // error handler
+                console.log( jqXHR);
+                alert('fail' + status.code);
+            }
+         });
+}
+</script>
+</html>

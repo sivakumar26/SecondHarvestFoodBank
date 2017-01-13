@@ -1,0 +1,17 @@
+{
+  "name": "oppertunity-hack",
+  "version": "1.0.0",
+  "description": "Paypal hack",
+  "main": "restService.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+"dependencies": {
+  "express": "4.13.4",
+  "crypto":"0.0.3",
+  "mysql":"2.10.2",
+  "body-parser":"1.15.2"
+},
+  "author": "sivakumar",
+  "license": "ISC"
+}
